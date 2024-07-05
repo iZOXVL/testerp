@@ -1,10 +1,10 @@
 import "jsvectormap/dist/css/jsvectormap.css";
 import "flatpickr/dist/flatpickr.min.css";
-import "@/css/satoshi.css";
-import "@/css/style.css";
+import "@/../../css/satoshi.css";
+import "@/../../css/style.css";
 import React, { useEffect, useState } from "react";
 import { SessionProvider } from 'next-auth/react'
-import { auth } from '@/auth'
+import { auth } from '@/../../auth'
 
 export default async function RootLayout({
   children,

@@ -7,8 +7,8 @@ import { IoIosArrowDown } from "react-icons/io";
 import { FaFacebook, FaInstagram, FaLinkedin, FaPowerOff, FaTwitter, FaUser } from "react-icons/fa";
 import { Button } from "@nextui-org/react";
 import { motion, AnimatePresence } from "framer-motion"; // Importamos motion y AnimatePresence de framer-motion
-import { useCurrentUser } from "@/hooks/use-current-user";
-import { logout } from "@/actions/logout";
+import { useCurrentUser } from "@/../../hooks/use-current-user";
+import { logout } from "@/../../actions/logout";
 
 
 

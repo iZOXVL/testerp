@@ -3,11 +3,11 @@
 import * as z from "zod";
 import bcrypt from "bcryptjs";
 
-import { db } from "@/lib/db";
-import { RegisterSchema } from "@/schemas";
-import { generateVerificationToken } from "@/lib/tokens";
-import { getUserByEmail } from "@/data/users";
-import { sendVerificationEmail } from "@/lib/mail";
+import { db } from "@/../../lib/db";
+import { RegisterSchema } from "@/../../schemas";
+import { generateVerificationToken } from "@/../../lib/tokens";
+import { getUserByEmail } from "@/../../data/users";
+import { sendVerificationEmail } from "@/../../lib/mail";
 
 export const register = async (values: z.infer<typeof RegisterSchema>) => {
   const validatedFields = RegisterSchema.safeParse(values);

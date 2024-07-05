@@ -1,7 +1,7 @@
 import React from "react";
-import useColorMode from "@/hooks/useColorMode"; // Ajusta la ruta según sea necesario
+import useColorMode from "@/../../hooks/useColorMode"; // Ajusta la ruta según sea necesario
 import "@theme-toggles/react/css/Lightbulb.css";
-import "@/css/custom-toggle.css";
+import "@/../../css/custom-toggle.css";
 import { Lightbulb  } from "@theme-toggles/react";
 
 const DarkModeSwitcher: React.FC = () => {

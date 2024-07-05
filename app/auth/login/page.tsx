@@ -5,7 +5,7 @@ import { useSearchParams } from 'next/navigation';
 import React, { useState } from 'react';
 import { MdContactMail } from 'react-icons/md';
 import { signIn } from "next-auth/react";
-import { DEFAULT_LOGIN_REDIRECT } from "@/routes";
+import { DEFAULT_LOGIN_REDIRECT } from "@/../../routes";
 import { FiLogIn } from "react-icons/fi";
 
 const Login: React.FC = () => {
