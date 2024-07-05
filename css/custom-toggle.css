@@ -1,0 +1,11 @@
+/* src/css/custom-toggle.css */
+
+.theme-toggle-light .theme-toggle--classic {
+  --theme-toggle-color: #000; /* Color del toggle en modo claro */
+  --theme-toggle-background: #fff; /* Fondo del toggle en modo claro */
+}
+
+.theme-toggle-dark .theme-toggle--classic {
+  --theme-toggle-color: #fff; /* Color del toggle en modo oscuro */
+  --theme-toggle-background: #000; /* Fondo del toggle en modo oscuro */
+}
